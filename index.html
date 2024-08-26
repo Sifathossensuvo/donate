@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Donate For Bd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .nerko-one{
+  font-family: "Nerko One", cursive;
+
+}
+/* Container for the entire carousel */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Flexbox to align the images in a row */
+.carousel-images {
+    display: flex;
+    width: 300%; /* Assuming 3 images, adjust based on the number of images */
+    animation: slide 12s infinite; /* Change 12s to control the speed */
+}
+
+/* Styling individual images */
+.carousel-images img {
+    width: 100%; /* Each image takes up 100% of the container */
+    flex-shrink: 0;
+}
+
+/* Keyframes for the slide animation */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+
+</style>
+
+</head>
+<body class="nerko-one">
+    <header>
+<nav class="py-5 px-3 md:px-20 bg-gradient-to-r from-[#bab7b7de] to-[#77737382] flex items-center  justify-between">
+
+<div>
+<h1 class="font-extrabold text-4xl">BD<span class="text-green-500">donate</span></h1>
+</div>
+<div class=" lg:flex gap-16 cursor-pointer items-center hidden md:block">
+<h1 class="text-xl">Home</h1> 
+<h1 class="text-xl">About</h1>
+<h1 class="text-xl">Contact team</h1>
+<h1 class="text-xl">Donate</h1>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+  </svg>
+  
+</div>
+
+</nav>
+
+<!-- banner -->
+ <div class="banner  mt-12 px-3 md:px-20">
+    <!-- content -->
+<div class=" gap-12 flex justify-between flex-col md:flex-row">
+    <div class="flex items-center flex-1">
+        <div>
+            <h1 class="text-4xl md:text-[87px] mb-4 md:mb-10">Save Bangaldesh.</h1>
+            <p class="text-[#464444]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim optio est debitis, odit magni vel voluptatibus, nobis possimus nam ad esse, magnam quidem saepe ab soluta laborum sapiente? Maiores totam consequuntur itaque recusandae at molestias unde perspiciatis neque dicta iure.</p>
+            <button class="px-24 text-xl py-2 rounded-xl bg-gradient-to-r mt-10 from-[#f39243d0] to-[#d8690ed0]">Donate</button>
+        </div>
+    </div>
+        <!-- image -->
+        <div class=" h-[500px]">
+        <img class="rounded-2xl h-full" src="asset/ekr6_qw9t_220712.jpg" alt="">
+        </div> 
+</div>
+ </div>
+    </header>
+    <main class="">
+
+        
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
